@@ -1,0 +1,27 @@
+
+### Index
+GET  http://localhost:3000/places
+
+### Create
+POST http://localhost:3000/places
+Content-Type: application/json
+
+{
+  "name":"Brooklyn Bridge",
+  "address":"USA"
+}
+
+### Show
+GET  http://localhost:3000/places/2
+
+### Create
+PATCH http://localhost:3000/places/5
+Content-Type: application/json
+
+{
+  "name":"big bridge in ny",
+  "address":"brooklyn boi"
+}
+
+### Delete
+DELETE http://localhost:3000/places/5
